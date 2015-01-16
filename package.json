@@ -1,0 +1,22 @@
+{
+  "name": "simple-res",
+  "version": "0.0.1",
+  "description": "simple res",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.local.tulingdao.com:wanglihui/simple-res.git"
+  },
+  "keywords": [
+    "simple",
+    "res"
+  ],
+  "author": "lihui.wang@tulingdao.com",
+  "license": "ISC"
+}
