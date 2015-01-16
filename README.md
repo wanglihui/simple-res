@@ -6,6 +6,10 @@
 ---
     1. simple-res依赖express和session
 
+###### 安装
+---
+    npm install simple-res
+
 ###### 使用
 ---
 
@@ -36,5 +40,5 @@
     });
 ```
 
-    ajax 请求返回格式 {ret:0, code:0, errMsg: "消息", otherMsg: "其他信息"}
+    ajax 请求返回格式 {"ret":0,"code":0,"errMsg":"操作成功","redirectUrl":"http://localhost:3000/line/self","otherMsg":1}
     http　请求将直接执行　successDone,或者failDone
